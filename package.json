@@ -4,18 +4,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx ts-node src/listDevices.ts"
+    "device-list": "npx ts-node src/listDevices.ts"
   },
   "keywords": [],
   "author": "Willy Tenggara",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@roamhq/wrtc": "^0.10.0",
     "audify": "^1.10.1",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
     "ws": "^8.21.0"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
+    "@types/simple-peer": "^9.11.9",
     "@types/ws": "^8.18.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
